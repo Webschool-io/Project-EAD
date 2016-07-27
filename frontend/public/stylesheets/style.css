@@ -1,0 +1,71 @@
+
+
+header {
+    background-color: #1680a7;
+}
+
+#linha-header {
+    background-color: #6ed5a2;
+    height: 7px;
+}
+
+/* Nav Principal */
+
+#nav-principal a{
+    color: #FFF;
+}
+
+#btn-matricule {
+    background-color: #6ed5a2;
+}
+
+#logo-principal {
+    margin-left: 90px;
+    text-align: center;
+}
+
+/* Article */
+
+#main {
+    text-align: center;
+}
+
+#article-1 {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../img/bg/bg-preto.jpg');
+}
+
+.titulo-article {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.texto-article-color {
+    color: #6ed5a2;
+}
+
+/* Section Main */
+
+#sub-titulo-sect-main {
+    color: #1680a7;
+}
+
+#p-sect-main {
+    color: #788c95;
+}
+
+/* Section nossos cursos */
+
+#content_cursos {
+    background-color: #202b31;
+}
+
+#titulo-nossos-cursos {
+    color: #FFF;
+}
+
+#p-nossos-cursos {
+    color: #87989f;
+}
+
