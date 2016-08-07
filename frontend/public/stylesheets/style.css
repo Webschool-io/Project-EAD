@@ -11,6 +11,21 @@ header {
 
 /* Nav Principal */
 
+#bg-menu {
+    background-color: #1680a7;
+    margin: 0 0 0 0;
+}
+
+/* Toggle */
+.navbar-default-custom .navbar-toggle .icon-bar {
+    background-color: #888 !important;
+}
+
+.navbar-default-custom .navbar-toggle {
+    border-color: #ddd !important;
+}
+/* End Toggle */
+
 #nav-principal a{
     color: #FFF;
 }
@@ -22,6 +37,22 @@ header {
 #logo-principal {
     margin-left: 90px;
     text-align: center;
+    width: auto;
+    height: 230px;
+}
+
+/* Mobile */
+@media(max-width: 383px) {
+
+    #logo-principal {
+        margin-left: 11px;
+        text-align: center;
+        width: auto;
+        height: 130px;
+        margin-top: -20px;
+        margin-bottom: -25px;
+    }
+
 }
 
 /* Article */

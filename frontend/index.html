@@ -15,12 +15,12 @@
 
 
             <!-- Conteúdo da navegação -->
-            <nav>
+            <!-- <nav>
                 <ul id="nav-principal" class="nav nav-justified nav-pills">
                     <li>
 
                         <figure id="logo-principal">
-                            <img src="img/logo/logo-principal.png">
+                            <img class="img-responseive" src="img/logo/logo-principal.png">
                         </figure>
                     </li>
                     <li><a href="#">HOME</a></li>
@@ -32,7 +32,46 @@
 
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
+
+            <nav id="bg-menu" class="navbar navbar-default-custom">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <figure class="visible-xs">
+                            <img id="logo-principal" class="img-responseive" src="img/logo/logo-principal.png">
+                        </figure>
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul id="nav-principal" class="nav nav-justified nav-pills">
+
+                            <li>
+                                <figure class="hidden-xs">
+                                    <img id="logo-principal" class="img-responseive" src="img/logo/logo-principal.png">
+                                </figure>
+                            </li>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">CURSOS</a></li>
+                            <li><a href="#">MATERIAL DE APOIO</a></li>
+                            <li><a href="#">INSTRUÇÕES</a></li>
+                            <li>
+                                <button type="button" id="btn-matricule" class="btn btn-success">Matricule-se</button>
+
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+
         </header>
 
 
@@ -45,8 +84,8 @@
                 <h1 class="titulo-article">Que tal aprender algo novo agora mesmo</h1>
                 <h5 class="texto-article-color"><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sem mauris, dictum a euismod lobortis, facilisis et leo. </h5>
 
-                <figure id="logo-principal">
-                    <img src="img/pages/home/mac.png">
+                <figure>
+                    <img id="img-mac" class="img-responsive" src="img/pages/home/mac.png">
                 </figure>
 
             </article>
@@ -94,6 +133,8 @@
         <section>
         </section>
 
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <!-- Conteúdo rodapé -->
         <footer id="footer">
         </footer>

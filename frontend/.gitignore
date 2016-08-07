@@ -9,3 +9,6 @@ $ cat .gitignore
 
 # Ignorar todos os diretórios e arquivos em um diretório.
 bower_components/
+
+../Layout-curso.psd
+../Layout.psd
